@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Kaushan+Script&display=swap");
+
+.Weather {
+    color: rgb(135,135,135);
+}
+
+.Weather h1 {
+    width: 100%;
+    font-family: "Kaushan Script";
+}
+
+.title {
+    background-image: linear-gradient(
+      to right,
+      #ff8177 0%,
+      #ff867a 0%,
+      #ff8c7f 21%,
+      #f99185 52%,
+      #cf556c 78%,
+      #b12a5b 100%
+    );
+    color: #fff;
+    text-align: center;
+  }
+
+  .Weather form {
+      padding-bottom: 10px;
+  }
+
+  .Weather ul {
+      margin: 0;
+      padding: 0;
+  }
+
+  .Weather li {
+      list-style: none;
+      font-weight: lighter;
+      font-size: 10px;
+      text-transform: capitalize;
+  }
+
+  .Weather img {
+      width: 60px;
+  }
+  
+  .Weather .temperature {
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: lighter;
+    padding-left: 10px;
+  }
+
+  .Weather .unit {
+    font-weight: lighter;
+  }
