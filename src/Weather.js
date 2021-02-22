@@ -73,7 +73,7 @@ export default function Weather(props) {
         return (
             <div className="Weather">
                 <div className="card">
-                    <h1 className="title">What the Weather</h1>
+                    <h1 className="title">What the Weather?</h1>
                     <div className="card-body">
                         <form onSubmit={handleSubmit}>
                             <div className="input-group">
