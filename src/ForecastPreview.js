@@ -18,7 +18,7 @@ export default function ForecastPreview(props) {
     return (
         <div className="WeatherForecast col">
             <strong>{formatHours(props.data.dt * 1000)}</strong>
-            <img src={`http://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`} id="icon" />
+            <img src={`https://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`} id="icon" />
             <small><strong>{Math.round(props.data.main.temp_max)}ºC</strong>{Math.round(props.data.main.temp_min)}ºC</small>
         </div>
     )
