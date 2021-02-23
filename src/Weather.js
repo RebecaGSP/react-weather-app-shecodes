@@ -48,7 +48,7 @@ export default function Weather(props) {
             temperature: Math.round(response.data.main.temp),
             wind: Math.round(response.data.wind.speed),
             humidity: response.data.main.humidity,
-            iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+            iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
         })
         setReady(true)
     }
