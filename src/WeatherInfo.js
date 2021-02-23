@@ -1,4 +1,5 @@
 import React from "react";
+import WeatherForecast from "./WeatherForecast"
 import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
@@ -21,7 +22,7 @@ export default function WeatherInfo(props) {
                 </ul>
             </div>
             <div className="col-8 mt-6">
-                <h2>Forecast</h2>
+                <WeatherForecast city= {props.data.city} />
             </div>
         </div>
     )
